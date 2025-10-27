@@ -1,0 +1,79 @@
+// 1. Write a program to perform addition, subtraction, multiplication, and division of any two numbers.
+a = 1;
+b = 2;
+info "Addition of two numbers : " + a+b;
+info "Subtraction of two numbers : " + (a-b);
+info "Multiplication of two numbers : " + a*b;
+info "Division of two numbers : " + a/b;
+
+// 2. Find the area and perimeter of a square
+a = 200;
+info "Area of a Square :" + a * a;
+info "Perimeter of a Square: " + 4*a;
+
+// 3. Find the area and circumference of a circle
+r = 300;
+pi = 3.14;
+info "Area of a Circle: " + pi*r*r;
+info "Perimeter of a Circle: " + 2*pi*r;
+
+// 4. Find the area and perimeter of a rectangle
+length = 10;
+Breadth = 15;
+info "Area of a Rectangle: "+ length *Breadth;
+info "Perimeter of a Rectangle: "+ 2*length*Breadth;
+
+// 5. Find the remainder for the given problem  144÷7
+a = 144;
+b = 7;
+info "Remainder is: " + a%b;
+
+// 6. Find the quotient for the given problem  234÷6
+a = 234;
+b= 6;
+info "Quotient is :" + a/b;
+
+// 7. Find the square of any number
+a = 2;
+info "Square of a given number: " + a*a;
+
+// 8. Write a Deluge script to find the maximum between two numbers.
+a = 5;
+b = 3;
+if(a>b)
+{
+	info "A is Greater";
+}
+else 
+{
+	info "B is Greater";
+}
+
+// 9. Write a Deluge Script to find the maximum between three numbers.
+a = 5;
+b = 10;
+c = 8;
+if(a>b && a >c)
+{
+	info "A is Greater";
+}
+else if(b>a && b > c)
+{
+	info "B is Greater";
+}
+else 
+{
+	info "C is Greater";
+}
+
+// 10. write a deluge script to check whether the given input "Elephant" has a vowel or not.
+input1 = "Eleplant";
+a = input1.toLowerCase();
+if(a.contains("a")|| a.contains("e")|| a.contains("i")|| a.contains("o")|| a.contains("u"))
+{
+	info "The Given word contains vowel";
+}
+else 
+{
+	info "The Given word does not contain vowel";
+}
