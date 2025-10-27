@@ -72,3 +72,26 @@ else
 {
 	info "The Given input is consonant";
 }
+
+// 7. Write a Deluge Script to input any character and check whether it is an alphabet, digit, or special character.
+var = "0";
+if(var.matches("[0-9]"))
+{
+	info "The given character is digit";
+}
+else if(var.matches("[A-Z]")|| var.matches("[a-z]"))
+{
+	info "The given character is alphabet";
+}
+else 
+{
+	info "The Given Character is special character";
+}
+
+// 8.Initialize a variable with a date value and print it.
+date1 = zoho.currentdate;
+info date1;
+date2 ="02/04/2004";
+info date2;
+
+
