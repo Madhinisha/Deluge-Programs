@@ -1,0 +1,74 @@
+// 1. Write a Deluge Script to check whether a number is negative, positive, or zero.
+num =0;
+if(num < 0)
+{
+	info "The Given number is negative";
+}
+else if(num = 0)
+{
+	info "The Given number is zero";
+}
+else 
+{
+	info "The Given number is positive";
+}
+
+// 2. Write a Deluge Script to check whether a number is divisible by 5 or 11 or not.
+num =44;
+if(num%5 == 0)
+{
+	info "The Given number is divisible by 5";
+}
+else if(num%11 = 0)
+{
+	info "The Given number is divisible by 11";
+}
+else 
+{
+	info "The Given number does not divisible by 5 and 11";
+}
+
+// 3. Write a Deluge Script to check whether a number is even or odd.
+num = 2;
+if(num%2 == 0)
+{
+	info "The number is even";
+}
+else 
+{
+	info "The number is odd";
+}
+
+// 4. Write a Deluge Script to check whether a year is a leap year or not.
+year = 2000;
+if((year%4==0 && year%100 !=0) || year%400 == 0)
+{
+	info "Leap Year";
+}
+else 
+{
+	info "Not a Leap Year";
+}
+
+// 5. Write a Deluge Script to check whether a character is an alphabet or not.
+val = "A";
+low = val.lower();
+if(low.matches("[a-z]"))
+{
+	info "The given character is an alphabet";
+}
+else 
+{
+	info "The given character is not an alphabet";
+}
+
+// 6. Write a Deluge Script to input any alphabet and check whether it is vowel or consonant.
+val = "a";
+if(val.contains("a")|| val.contains("e") ||val.contains("i")||val.contains("o")||val.contains("u"))
+{
+	info "The Given input is vowel";
+}
+else 
+{
+	info "The Given input is consonant";
+}
