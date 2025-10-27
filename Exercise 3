@@ -1,0 +1,11 @@
+// 1. Write a Deluge Script to check whether a character is uppercase orlowercase alphabet.
+char = "w";
+if(char.matches("[A-Z]"))
+{
+	info "The Given character is Uppercase";
+}
+else 
+{
+	info "The Given character is Lowercase";
+}
+
