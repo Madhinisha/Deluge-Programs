@@ -8,4 +8,24 @@ else
 {
 	info "The Given character is Lowercase";
 }
-
+=================================================================================================================================
+// Write a script to input a month number and print the number of days in that month.
+month = 2;
+year = 2004;
+if(month.matches(2) && (year%4==0 && year%100 !=0) || year%400 == 0)
+{
+	info "The Month " + month + " has 29 days";
+}
+else  if(month.matches(1)|| month.matches(3)||month.matches(5)||month.matches(7)||month.matches(9)|| month.matches(11))
+{
+ info "The Month " + month + " has 31 days";
+}
+else  if(month.matches(4)|| month.matches(6)||month.matches(8)||month.matches(10)||month.matches(12))
+{
+ info "The Month " + month + " has 30 days";
+}
+else  if(month.matches(2))
+{
+ info "The Month " + month + " has 28 days";
+}
+=================================================================================================================================
