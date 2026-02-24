@@ -249,8 +249,8 @@ info "{ Add : "+add+" , Sub : "+sub+" , Mul : "+mul+" , Div : "+div+" }";
 num = 92;
 if(num %2==0)
 {
-	change = num+1;
-	info "The Given number is even so the next odd number is : " + change;
+	odd = num+1;
+	info "The Given number is even so the next odd number is : " + odd;
 }
 else if(num%2==1)
 {
