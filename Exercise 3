@@ -233,3 +233,12 @@ info "Floor and Ceil of First number is : " + Floor1 + " & " +Ceil1 +" (abs valu
 info "Floor and Ceil of Second number is : " + Floor2 + " & " +Ceil2 +" (abs value : " +diff2+")";
 
 =================================================================================================================================
+// 11.Write a program to perform addition, subtraction, multiplication, and division of
+// any two numbers using List.
+list1 = {2,3};
+add = list1.get(0) + list1.get(1);
+sub = list1.get(0) - list1.get(1);
+mul = list1.get(0) * list1.get(1);
+div = list1.get(0) / list1.get(1);
+info "{ Add : "+add+" , Sub : "+sub+" , Mul : "+mul+" , Div : "+div+" }";
+=================================================================================================================================
