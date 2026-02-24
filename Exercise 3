@@ -177,3 +177,20 @@ info "Surcharge : " + surcharge;
 info "Total Electricity Bill: " + total_bill;
 
 =================================================================================================================================
+// 7. Write a deluge script for a shopkeeper who buys a product for 15 rs and he sells
+// the product for Rs.25 . Check whether the shopkeeper had profit or loss for these
+// sales.
+
+Bought = 70;
+sold = 20;
+Value = (Bought - sold).abs();
+if(Value > Bought)
+{
+	info "The shopkepper had a profit amount of : " + Value;
+}
+if(Value < Bought)
+{
+	info "The shopkepper had a loss amount of : " + Value;
+}
+
+=================================================================================================================================
