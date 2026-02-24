@@ -229,5 +229,7 @@ Ceil2 = b.ceil();
 Floor2 = b.floor();
 diff1 = (Floor1 - Ceil1).abs();
 diff2 = (Floor2 - Ceil2).abs();
-info "difference1 : " + diff1 + "Difference2 :" + diff2;
+info "Floor and Ceil of First number is : " + Floor1 + " & " +Ceil1 +" (abs value : "+diff1 +")";
+info "Floor and Ceil of Second number is : " + Floor2 + " & " +Ceil2 +" (abs value : " +diff2+")";
+
 =================================================================================================================================
