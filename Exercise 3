@@ -242,3 +242,19 @@ mul = list1.get(0) * list1.get(1);
 div = list1.get(0) / list1.get(1);
 info "{ Add : "+add+" , Sub : "+sub+" , Mul : "+mul+" , Div : "+div+" }";
 =================================================================================================================================
+// 12.If the given input is even, change it to the next odd number, and if it is odd,
+// change it to the square of the number. Print the changed number in both the
+// cases.
+
+num = 92;
+if(num %2==0)
+{
+	change = num+1;
+	info "The Given number is even so the Changed number is : " + change;
+}
+else if(num%2==1)
+{
+	square = num * num;
+	info "The Given number is odd so the Square root of the number is : "+ square;
+}
+=================================================================================================================================
