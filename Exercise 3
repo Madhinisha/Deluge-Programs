@@ -70,3 +70,47 @@ if(Ten >=1)
 }
 info "Remaining Balance : "+balance;
 =================================================================================================================================
+// 4. Write a script to input marks of five subjects: Physics, Chemistry, Biology,
+// Mathematics, and Computer. Calculate percentage and grade according to the
+// following:
+//             Percentage >= 90% : Grade A
+//             Percentage >= 80% : Grade B
+//             Percentage >= 70% : Grade C
+//             Percentage >= 60% : Grade D
+//             Percentage >= 40% : Grade E
+//             Percentage < 40% : Grade 
+
+Marks = {"Physics" : 90, "Chemistry":80, "Biology" : 56,"Mathematics":78,"Computer":98};
+total = 0;
+for each mark in Marks
+{
+    total = total + mark;
+}
+percentage = total / 5;
+info "Total Marks: " + total;
+info "Percentage: " + percentage;
+if(percentage >= 90)
+{
+    info "Grade A";
+}
+else if(percentage >= 80)
+{
+    info "Grade B";
+}
+else if(percentage >= 70)
+{
+    info "Grade C";
+}
+else if(percentage >= 60)
+{
+    info "Grade D";
+}
+else if(percentage >= 40)
+{
+    info "Grade E";
+}
+else
+{
+    info "Grade F";
+}
+=================================================================================================================================
