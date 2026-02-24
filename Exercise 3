@@ -218,3 +218,16 @@ else
 	info "Not Equal";
 }
 =================================================================================================================================
+// 10.Print the difference between its flooring value and ceiling value for the given two
+// numbers and print the absolute value for it.
+ 
+a = 6.55;
+b=9.57;
+Ceil1 = a.ceil();
+Floor1 = a.floor();
+Ceil2 = b.ceil();
+Floor2 = b.floor();
+diff1 = (Floor1 - Ceil1).abs();
+diff2 = (Floor2 - Ceil2).abs();
+info "difference1 : " + diff1 + "Difference2 :" + diff2;
+=================================================================================================================================
