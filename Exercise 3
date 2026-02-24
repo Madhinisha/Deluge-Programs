@@ -258,3 +258,15 @@ else if(num%2==1)
 	info "The Given number is odd so the Square root of the number is : "+ square;
 }
 =================================================================================================================================
+// 13.Print Simple Interest and Compound Interest after initializing all the necessary
+// inputs.
+
+P = 10000;
+R = 5;
+T = 2;
+SI = (P * R * T) / 100;
+rate = R / 100.0; 
+CI = P *(1 + rate).power(T)-P;
+info "Simple Interest: " + SI;
+info "Compound Interest: " + CI;
+=================================================================================================================================
