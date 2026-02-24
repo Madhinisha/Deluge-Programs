@@ -29,3 +29,44 @@ else  if(month.matches(2))
  info "The Month " + month + " has 28 days";
 }
 =================================================================================================================================
+// 3. Write a deluge script to count the total number of notes in given amount.
+
+amount = 34567;
+Five_Hundred = (amount/500).floor();
+balance = amount%500;
+if(Five_Hundred >= 1)
+{
+	info "Total number of 500rs note is : " +Five_Hundred;
+}
+Two_hundred = (balance/200).floor();
+balance = balance%200;
+if(Two_hundred>= 1)
+{
+	info "Total number of 200rs note is : " +Two_hundred;
+}
+Hundred = (balance/100).floor();
+balance = balance%100;
+if(Hundred >=1)
+{
+	info "Total number of 100rs note is : " +Hundred;
+}
+Fifety = (balance/50).floor();
+balance = balance%50;
+if(Fifety >=1)
+{
+	info "Total number of 50rs note is : " +Fifety;
+}
+twenty = (balance/20).floor();
+balance = balance%20;
+if(twenty >=1)
+{
+	info "Total number of 20rs note is : " +twenty;
+}
+Ten = (balance/10).floor();
+balance=balance%10;
+if(Ten >=1)
+{
+	info "Total number of 10rs note is : " +Ten;
+}
+info "Remaining Balance : "+balance;
+=================================================================================================================================
