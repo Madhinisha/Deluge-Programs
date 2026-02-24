@@ -138,7 +138,6 @@ if(Basic_Salary>20000)
 }
 Gross_Salary = Basic_Salary + HRA + DA;
 info "Gross Salary : " + Gross_Salary;
-
 =================================================================================================================================
 // 6. Write a deluge script to input electricity unit charges and calculate the total
 // electricity bill according to the given condition:
@@ -175,7 +174,6 @@ total_bill = bill + surcharge;
 info "Electricity Bill before surcharge: " + bill;
 info "Surcharge : " + surcharge;
 info "Total Electricity Bill: " + total_bill;
-
 =================================================================================================================================
 // 7. Write a deluge script for a shopkeeper who buys a product for 15 rs and he sells
 // the product for Rs.25 . Check whether the shopkeeper had profit or loss for these
@@ -192,7 +190,6 @@ if(Value < Bought)
 {
 	info "The shopkepper had a loss amount of : " + Value;
 }
-
 =================================================================================================================================
 // 8. Write a deluge script to input any string and check whether the string is
 // Palindrome or Not.
@@ -206,5 +203,18 @@ if(str.reverse()== str)
 else 
 {
 	info "Not a palindrome";
+}
+=================================================================================================================================
+// 9. Given two numbers, print "Equals" if the square root of the first number is equal to
+// the square of the second number and vice versa.
+num1 = 2;
+num2 = 4;
+if(num1.sqrt()==num2.sqrt())
+{
+	info "Equal";
+}
+else 
+{
+	info "Not Equal";
 }
 =================================================================================================================================
