@@ -194,3 +194,17 @@ if(Value < Bought)
 }
 
 =================================================================================================================================
+// 8. Write a deluge script to input any string and check whether the string is
+// Palindrome or Not.
+ 
+word = "Madhinisha";
+str = word.toLowerCase();
+if(str.reverse()== str)
+{
+	info "palindrome";
+}
+else 
+{
+	info "Not a palindrome";
+}
+=================================================================================================================================
